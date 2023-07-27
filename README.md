@@ -8,6 +8,6 @@ orphaned anonymous accounts.
 An example of how to configure this is below:
 
 ```python
-# Set gpauthenticator as the authentication mechanism for the hub
+# Set guestauthenticator as the authentication mechanism for the hub
 c.JupyterHub.authenticator_class = 'guestauthenticator.GuestAuthenticator'
 ```
